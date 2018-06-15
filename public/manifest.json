@@ -1,19 +1,17 @@
 {
-  "manifest_version": 2,
-
-  "name": "FIFA WC 2018 Daily Schedule",
-  "description": "Daily Fixtures of FIFA World Cup 2018",
-  "version": "0.0.1",
-
-  "browser_action": {
-    "default_popup": "index.html",
-    "default_title": "View Today's Fixtures"
-  },
-  "icons": {
-    "16": "logo-wc-widget-16.png",
-    "48": "logo-wc-widget-64.png",
-    "128": "logo-wc-widget-128.png"
-  },
+  "short_name": "FIFA WC 2018 Daily Schedule",
+  "name": "Daily Fixtures of FIFA World Cup 2018",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
   "permissions": [
     "http://api.football-data.org/v1/competitions/467/fixtures"
   ]

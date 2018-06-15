@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
-          <header className="App-header">
+          <header className="App-header container">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Today's Matches</h1>
           </header>
